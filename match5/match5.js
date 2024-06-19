@@ -35,6 +35,7 @@
 //     _0x35bb1d,其name属性为Date
 //     _0x4e96b4['_$pr'] = new _0x4d2d2c(); //new Array()
 // 6.查找_$pr,对7处都打上断点进行网页调试
+// 7.监控_0x4e96b4['_$6_'],_0x4e96b4['_$tT'],_0x4e96b4['_$Jy']的值在5次push时的变化，第5次的值是不变的
 
 const Cryptojs = require("crypto-js");
 
@@ -47,8 +48,6 @@ var cookie_RM4 = "";
 var key = "";
 var _0x29dd83 = {};
 var pr = [];
-var op = 27;
-var b64pad = 1;
 var _$UH = {
   31: "toString",
   108: "length",
@@ -896,7 +895,6 @@ function _0x474032(_0x233f82, _0xe2ed33, _0x3229f9) {
 function _0x12eaf3() {
   return Date.parse(new Date());
 }
-
 
 function jiami() {
   for (let i = 0; i < 4; i++) {

@@ -4,7 +4,6 @@ var _n;
 window.o = 1;
 !(function (i) {
   var s = {};
-  console.log(i);
   function n(t) {
     if (s[t]) return s[t].exports;
     var e = (s[t] = {
@@ -2863,7 +2862,7 @@ window.o = 1;
                   }),
                   (window.ASN1 = u);
               })(),
-              (window.ASN1.prototype.getHexStringValue = function () {
+              (ASN1.prototype.getHexStringValue = function () {
                 var t = this.toHexString(),
                   e = 2 * this.header,
                   i = 2 * this.length;

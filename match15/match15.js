@@ -1,3 +1,4 @@
+//主要是异步问题
 const axios = require("axios");
 
 //第一步 获取单页信息 需要page 和 m 参数
