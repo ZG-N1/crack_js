@@ -1,0 +1,10 @@
+contour[0][pt].length == 11 : 4
+contour[0][pt].length == 10 : 1
+contour[0][pt].length == 13 : 0
+contour[0][pt].length == 7 : 7
+contour[0][pt].length == 37 : 5
+contour[0][pt].length == 28 : 6
+contour[0][pt].length == 32 : 8
+contour[0][pt].length == 29 : 9
+contour[0][pt].length == 44 : 3
+contour[0][pt].length == 30 : 2
